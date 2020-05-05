@@ -22,3 +22,4 @@ docker build -t getting-started .
 Remember the -d and -p flags? We're running the new container in "detached" mode (in the background) and creating a mapping between the host's port 3000 to the container's port 3000. Without the port mapping, we wouldn't be able to access the application.
 
 docker push docker/getting-started
+docker build -< /home/kishan/Downloads/kpdocker/Dockerfile.yml 
