@@ -23,3 +23,4 @@ Remember the -d and -p flags? We're running the new container in "detached" mode
 
 docker push docker/getting-started
 docker build -< /home/kishan/Downloads/kpdocker/Dockerfile.yml 
+docker exec -it containerid /bin/bash
